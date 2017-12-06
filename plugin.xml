@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin 
+    xmlns="http://www.phonegap.com/ns/plugins/1.0" 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    id="cordova-plugin-custom-filechooser" 
+    version="1.0.1">
+    
+    <engines>
+        <engine name="cordova" version=">=2.8.0" />
+    </engines>
+
+    <name>Custom File Chooser</name>
+
+    <js-module src="www/customFileChooser.js" name="CustomFileChooser">
+        <clobbers target="customFileChooser" />
+    </js-module>
+
+    <platform name="android">
+
+        <config-file target="res/xml/config.xml" parent="/widget">        
+            <feature name="CustomFileChooser">
+                <param name="android-package" value="com.custom.cordova.FileChooser"/>
+            </feature> 
+        </config-file> 
+                
+        <source-file src="src/android/CustomFileChooser.java" target-dir="src/com/custom/cordova"/>
+                        
+    </platform>
+    
+</plugin>
