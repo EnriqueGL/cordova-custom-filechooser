@@ -12,11 +12,11 @@ API
 	customFileChooser.open(type ,successCallback, failureCallback); 
   type: string
   
-  customFileChooser.open('application/pdf, image/png',function (uri){
-      console.log(uri)
-    }, function(err){
-      console.log(err);
-    });
+  	customFileChooser.open('application/pdf, image/png',function (uri){
+      		console.log(uri)
+    	}, function(err){
+      		console.log(err);
+    	});
   
 Types: 
 
