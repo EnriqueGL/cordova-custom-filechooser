@@ -52,3 +52,8 @@ Types:
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CSA7RBWMGH26G)
 
 
+
+## Support on Beerpay
+Hey dude! Help me out for a couple of :beers:!
+
+[![Beerpay](https://beerpay.io/EnriqueGL/cordova-custom-filechooser/badge.svg?style=beer-square)](https://beerpay.io/EnriqueGL/cordova-custom-filechooser)  [![Beerpay](https://beerpay.io/EnriqueGL/cordova-custom-filechooser/make-wish.svg?style=flat-square)](https://beerpay.io/EnriqueGL/cordova-custom-filechooser?focus=wish)
